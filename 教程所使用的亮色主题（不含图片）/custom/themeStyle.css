@@ -1,0 +1,22 @@
+QToolTip {
+  /*文本提示文字部分颜色*/
+  color: #FFFFFF;
+  /*文本提示背景部分颜色*/
+  background-color: #333333;
+  /*文本提示边框设置，此处设置为 0px 关闭它*/
+  border: 0px;
+  /*文本提示内边距*/
+  padding: 1px;
+  /*文本提示背景透明度*/
+  opacity: 240;
+}
+
+GroupView {
+  /*背景图片设置，如果写成 theme:图片名，那么会在该目录下的 resources 文件夹中寻找文件*/
+  background-image: url(theme:55222013_p0.png);
+  /*背景图片不重复*/
+  background-repeat: no-repeat;
+  /*背景图片右侧居中对齐*/
+  background-position: right center;
+  /*测试发现部分 css 参数不起作用，比如 background-size*/
+}
